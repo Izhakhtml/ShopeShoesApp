@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "PresentModelSportShoes";
+}
+
+<h2>PresentModelSportShoes</h2>
+
+@{
+    foreach (var item in Model)
+    {
+        <h1>@item.id</h1>
+        <h1>@item.companyName</h1>
+        <h1>@item.modelName</h1>
+        <h1>@item.size</h1>
+        <h1>@item.price</h1>
+    }
+}
